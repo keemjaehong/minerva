@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<title>MINERVA IT</title>
+<meta name="description" content="Minerva IT">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- IE브라우저용 ::placeholder 스크립트 -->
+<script src="js/placeholders.min.js"></script>
+</head>
+<body>
+<!-- skip navi -->
+<div id="skipNavi">
+    <a href="#header">Header</a>
+    <a href="#content1">Application Form</a>
+    <a href="#content2">Global Partners</a>
+    <a href="#content3">Join our Partnership</a>
+    <a href="#footer">Footer</a>
+</div>
+<!-- //skip navi -->
+<div id="wrap">
+    <!-- header -->
+    <header id="header">
+        <div class="header_inner"> 
+            <h1 class="logo">
+                <a href="#none">
+                    <img src="images/img_logo.png" alt="logo">
+                </a>    
+            </h1>
+            <nav id="gnb">
+                <h2 class="a11y blind">Main Navigation</h2>
+                <ul>
+                    <li><a href="#none">Products</a></li>
+                    <li><a href="#none">Solutions</a></li>
+                    <li><a href="#none">Customers</a></li>
+                    <li class="on"><a href="#none">Contact us</a></li>
+                </ul>
+            </nav>
+            <ul class="util">
+                <li><a href="#none">Get a Demo</a></li>
+                <li class="try"><a href="#none">Try for FREE</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- main -->
+    <main id="main" class="sub_main contact">
+        <!-- sub visual -->
+        <div class="sub_visual">
+            <a href="#none">
+                <div class="tit_wrap">
+                    <h2 class="tit">Ask us anything.</h2>
+                    <p class="txt">Our team is ready to answer your queries</p>
+                </div>
+            </a>
+        </div>
+        <!-- //sub visual -->
+        <!-- container1. Application form -->
+        <div id="content1" class="container1">
+            <form>
+            <fieldset>
+                <legend>Application form</legend>
+                <div class="con_top">
+                    <div class="con_top_left">
+                        <h3 class="tit">What solution are you interested in?</h3>
+                        <ul class="list_radio clearfix">
+                            <li class="box_radio">
+                                <input type="radio" id="civil" name="interest" value="civil" class="blind">
+                                <label for="civil">Civil</label>
+                            </li>
+                            <li class="box_radio">
+                                <input type="radio" id="feanx" name="interest" value="FEA NX" class="blind"> 
+                                <label for="feanx">FEA NX</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="con_top_right">
+                        <h3 class="tit">What would you like to talk about?</h3>
+                        <ul class="list_radio clearfix">
+                            <li class="list_top clearfix">
+                                <ul>
+                                    <li class="box_radio">
+                                        <input type="radio" id="onlineMeeting" name="talkabout" value="online meeting" class="blind">
+                                        <label for="onlineMeeting">Online meeting</label>
+                                    </li>
+                                    <li class="box_radio">
+                                        <input type="radio" id="promotion" name="talkabout" value="promotion" class="blind" checked>
+                                        <label for="promotion" >Promotion</label>
+                                    </li>
+                                    <li class="box_radio">
+                                        <input type="radio" id="quotation" name="talkabout" value="quotation" class="blind">
+                                        <label for="quotation">Quotation</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list_bottom clearfix">
+                                <ul>
+                                    <li class="box_radio">
+                                        <input type="radio" id="trial" name="talkabout" value="trial" class="blind"> 
+                                        <label for="trial">Trial license</label>
+                                    </li>
+                                    <li class="box_radio">
+                                        <input type="radio" id="academic" name="talkabout" value="academic" class="blind"> 
+                                        <label for="academic">Academic license</label>
+                                    </li>
+                                    <li class="box_radio">
+                                        <input type="radio" id="others" name="talkabout" value="others" class="blind"> 
+                                        <label for="others">Others</label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_bot">
+                    <div class="con_bot_top">
+                        <input type="text" class="input_txt" id="firstName" autocomplete="off" placeholder="First Name">
+                        <label for="firstName"></label>
+                        <input type="text" class="input_txt" id="lastName" autocomplete="off" placeholder="Last Name">
+                        <label for="lastName"></label>
+                        <div class="select_wrap">
+                            <label for="selectOpt"></label>
+                            <select id="selectOpt">
+                                <option>Select Country</option>
+                                <option>Korea</option>
+                                <option>Italy</option>
+                                <option>Poland</option>
+                                <option>Czech Republic</option>
+                                <option>Spain</option>
+                                <option>Taiwan</option>
+                                <option>Indonesia - TEKNIK UTAMA</option>
+                                <option>Indonesia</option>
+                                <option>Turkey</option>
+                            </select>
+                        </div>
+                        <input type="text" class="input_txt company input_right" id="company" value=" Minerva">
+                        <label for="company"></label>
+                    </div>
+                    <div class="con_bot_mid">
+                        <input type="text" class="input_txt" id="workEmail" autocomplete="off" placeholder="Work Email" >
+                        <label for="workEmail"></label>
+                        <input type="text" class="input_txt" id="phone" autocomplete="off" placeholder="Phone (ex.123456789)">
+                        <label for="phone"></label>
+                        <input type="text" class="input_txt" id="department" autocomplete="off" placeholder="Department">
+                        <label for="department"></label>
+                        <input type="text" class="input_txt input_right" id="jobTitle" autocomplete="off" placeholder="Job Title">
+                        <label for="jobTitle"></label>
+                    </div>
+                    <div class="con_bot_bot">
+                        <textarea class="txtarea_comment" id="comment" rows="2" cols="30" placeholder="Enter your comment"></textarea>
+                        <label for="comment"></label>
+                    </div>
+                    <div class="box_submit">
+                        <input type="checkbox" class="blind" id="chkBoxAgree">
+                        <label for="chkBoxAgree">I agree to the <u>Terms of Use &amp; Privacy Policy.</u></label>
+                        <button type="button" class="btn_submit">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+            </form>
+        </div>
+        <!-- //container1 -->
+        <!-- container2. Global partners -->
+        <div id="content2" class="container2">
+            <div class="container_inner">
+                <div class="tit_wrap">
+                    <h2 class="tit">Global Partners</h2>
+                    <p class="txt">We first launched Minerva IT in Seoul, Korea, in 1992. Since then, we've expanded to 24 countries with 9 overseas regional headquarters and 45 regional business partners.<br>Although we are now operating globally, our main headquarter is in Korea. We hope to meet you as our new partner and grow up business together.</p>
+                </div>
+                <ul class="country_wrap">
+                    <li>
+                        <ul class="clearfix">
+                            <li class="box box1">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>MINERVA IT (HQ)</span>
+                                    <span class="country">KOREA</span>
+                                </div>
+                            </li>
+                            <li class="box box2">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>CTR NEX</span>
+                                    <span class="country">ITALY</span>
+                                </div>
+                            </li>
+                            <li class="box box3">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span></span>
+                                    <span>WSR Engineering</span>
+                                    <span class="country">POLAND</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="clearfix">
+                            <li class="box box4">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>Minerva software</span>
+                                    <span class="country">CZECH REPUBLIC</span>
+                                </div>
+                            </li>
+                            <li class="box box5">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>formsoft</span>
+                                    <span class="country">SPAIN</span>
+                                </div>
+                            </li>
+                            <li class="box box6">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>MINERVA Taiwan</span>
+                                    <span class="country">TAIWAN</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="clearfix">
+                            <li class="box box7">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>PT. Minervaindo UTAMA</span>
+                                    <span class="country">INDONESIA</span>
+                                </div>
+                            </li>
+                            <li class="box box8">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>MINERVA Team co.,Ltd</span>
+                                    <span class="country">THAILAND</span>
+                                </div>
+                            </li>
+                            <li class="box box9">
+                                <span class="flag"></span>
+                                <div class="box_name">
+                                    <span>ORHAN Düsandlik</span>
+                                    <span class="country">TURKEY</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- //container2 -->
+        <!-- container3. Join partnership -->
+        <div id="content3" class="container3">
+            <div class="container_inner">
+                <div class="tit_wrap">
+                    <h2 class="tit">MINERVA helps you find the new opportunity<br>and achieve your success</h2>
+                    <div class="btn_wrap">
+                        <label for="join" class="txt">Join our Partnership</label>
+                        <button type="button" id="join" class="btn_join" onclick="location.href='#none'"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //container3 -->
+    </main>
+<!-- //main -->
+
+<!-- footer -->
+    <footer id="footer">
+        <div class="footer_inner">
+            <div class="footer_top">
+                <div class="util">
+                    <button type="button" class="lang">language</button>
+                    <a class="btn_top" href="#header">Top</a>
+                </div>
+            </div>
+            <div class="footer_bot">
+                <div class="footer_bot_left">
+                    <h2 class="footer_logo">
+                        <a href="#none">Minerva SERVICE</a>
+                    </h2>
+                    <div class="email_wrap">
+                        <h4 class="tit">Get Updates &amp; Newsletters!</h4>
+                        <div class="box_email">
+                            <label for="inputEmail" class="blind"></label>
+                            <input class="input_email" type="text" id="inputEmail" placeholder="example&#64;impact.org">
+                            <button class="btn_signup" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <h4 class="tit">© MINERVA Co.,Ltd.</h4>
+                        <ul class="fnb">
+                            <li class="top">
+                                <ul>
+                                    <li><a href="#none">About us</a></li>
+                                    <li><a href="#none">Partnership</a></li>
+                                    <li><a href="#none">Contact us</a></li>
+                                </ul>
+                            </li>
+                            <li class="bot">
+                                <ul>
+                                    <li><a href="#none">Minerva Account</a></li>
+                                    <li><a href="#none">Terms of Use</a></li>
+                                    <li><a href="#none">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="sns_wrap">
+                            <a href="#none"><img src="images/ico_youtube.png" alt="youtube"></a>
+                            <a href="#none"><img src="images/ico_linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bot_right">
+                    <div class="sitemap_wrap products">
+                        <h4 class="tit">Products</h4>
+                        <ul class="sitemap">
+                            <li><a href="#none">Minerva Civil</a></li>
+                            <li><a href="#none">Overview</a></li>
+                            <li><a href="#none">All Features</a></li>
+                        </ul>
+                        <ul class="support">
+                            <li><a href="#none"><u>Product Updates</u></a></li>
+                            <li><a href="#none"><u>Free Trial</u></a></li>
+                            <li><a href="#none"><u>Request a Demo</u></a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap_wrap">
+                        <h4 class="tit">Solutions</h4>
+                        <ul class="sitemap">
+                            <li><a href="#none">solution1</a></li>
+                            <li><a href="#none">solution2</a></li>
+                            <li><a href="#none">solution3</a></li>
+                            <li><a href="#none">solution4</a></li>
+                            <li><a href="#none">solution5</a></li>
+                            <li><a href="#none">solution6</a></li>
+                            <li><a href="#none">solution7</a></li>
+                            <li><a href="#none">solution8</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap_wrap">
+                        <h4 class="tit">Customers</h4>
+                        <ul class="sitemap">
+                            <li><a href="#none">Project Applications</a></li>
+                            <li><a href="#none">Clients</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap_wrap">
+                        <h4 class="tit">Resources</h4>
+                        <ul class="sitemap">
+                            <li><a href="#none">Product Updates</a></li>
+                            <li><a href="#none">Customer Hub</a></li>
+                            <li><a href="#none">Training</a></li>
+                            <li><a href="#none">Blog</a></li>
+                            <li><a href="#none">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- //footer -->
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* 서브 페이지(contact us) */
+#main.contact {position: relative;display:block;}
+/* 서브 페이지(contact us). 컨테이너 공통 */
+#main.contact .container_inner {width: 1280px; margin: 0 auto;}
+/* 서브 페이지(contact us). 타이틀 공통 */
+#main.contact .tit_wrap {width: 100%;margin: 0 auto;text-align: center;}
+#main.contact .tit_wrap .tit {font-size: 48px;color: #fff;margin-bottom: 20px;}
+#main.contact .tit_wrap .txt {color: #fff;font-weight: 600;opacity: 0.8;}
+/* 서브 페이지(contact us). 비주얼 */
+#main.contact .sub_visual a {display: block; width: 100%; height: 400px; background: url(../images/sub_visual.jpg) no-repeat;background-size: cover; overflow: hidden;}
+#main.contact .sub_visual a .tit_wrap {width: 400px;margin-top: 170px;}
+/* 서브 페이지(contact us). 신청양식 */
+#main.contact .container1 {margin: -103px auto 120px;width: 1280px;height: 690px;border: 1px solid #eee;border-radius: 10px;box-shadow: 15px 15px 30px 10px rgba(0,0,0,0.05);background: #fff;padding: 64px 80px;z-index: 1000;}
+#main.contact .container1 .con_top {width: 100%; overflow: hidden;border-bottom: 2px solid #f0f0f0;margin-bottom: 47px;}
+/* 서브 페이지(contact us). 신청양식 con_top .txt 공통 */
+#main.contact .container1 .con_top .tit {font-size: 16px;font-weight: 800;margin-bottom: 20px;}
+/* 서브 페이지(contact us). 신청양식 con_top box_radio 공통 */
+#main.contact .container1 .con_top .list_radio .box_radio {float: left;width: 30%;}
+/* 서브 페이지(contact us). 신청양식 con_top_left */
+#main.contact .container1 .con_top .con_top_left {float: left;width: 50%;}
+/* 서브 페이지(contact us). 신청양식 con_top_right */
+#main.contact .container1 .con_top .con_top_right {float: left;width: 50%;}
+#main.contact .container1 .con_top .con_top_right .list_radio {margin-bottom: 49px;}
+#main.contact .container1 .con_top .con_top_right .list_radio .list_top {margin-bottom: 16px;}
+#main.contact .container1 .con_top .con_top_right .list_radio .list_top ul li:nth-child(2), #main.contact .container1 .con_top .con_top_right .list_radio .list_bottom ul li:nth-child(2) {margin-right: 40px;}
+/* 서브 페이지(contact us). 신청양식 con_bot 공통 */
+#main.contact .container1 .con_bot .input_txt, #main.contact .container1 .con_bot .select_wrap {float:left; margin-right: 40px;}
+#main.contact .container1 .con_bot .input_txt.input_right {margin-right: 0;}
+#main.contact .container1 .con_bot .con_bot_top,
+#main.contact .container1 .con_bot .con_bot_mid,
+#main.contact .container1 .con_bot .con_bot_bot
+{width: 1120px;overflow: hidden; margin-bottom: 24px;}
+#main.contact .container1 .con_bot .con_bot_top input[type="text"].company {color: #000;font-weight: 700;}
+#main.contact .container1 .con_bot .con_bot_bot .txtarea_comment {border: 1px solid #dee1e6;border-radius: 4px;width: 100%;height: 80px;padding: 10px;color:#999;font-size: 14px;font-weight: 600;margin-bottom: 24px;overflow: auto;}
+/* 서브 페이지(contact us). 신청양식 box_submit */
+#main.contact .container1 .box_submit {float: right;width: 50%;}
+#main.contact .container1 .box_submit input[type="checkbox"] + label u {color: #333;}
+#main.contact .container1 .box_submit .btn_submit {width: 100%;height: 56px;margin-top: 23px;font-size: 16px;color: #fff;font-weight: 700;border: none;border-radius: 4px;background: #3636c6;}
+/* 서브 페이지(contact us). 글로벌파트너 */
+#main.contact .container2 {position: relative;width: 100%;height: 631px;overflow: hidden;background: url(../images/bg_partner.jpg) no-repeat;background-size: cover;}
+#main.contact .container2:after {content: '';position: absolute;width: 100%; height:100%;top:0; left:0;background:rgba(0,0,0,0.6);}
+#main.contact .container2 .container_inner {margin-top: 130px;}
+#main.contact .container2 .tit_wrap {position: relative;margin-bottom:64px;z-index: 1;}
+#main.contact .container2 .tit_wrap .txt {line-height: 22px;font-weight: 400;}
+#main.contact .container2 .country_wrap {position: relative;width: 1120px;margin: 0 auto;z-index: 1;}
+/* 서브 페이지(contact us). 글로벌파트너 텍스트 공통*/
+#main.contact .container2 .country_wrap .box .box_name {float: left;margin-left: 32px;}
+#main.contact .container2 .country_wrap .box .box_name span {color: #fff;line-height: 21px; cursor: default;}
+#main.contact .container2 .country_wrap .box span.country {display: block;font-size: 12px;opacity: 0.5;}
+#main.contact .container2 .country_wrap > li {margin-bottom: 48px;}
+#main.contact .container2 .country_wrap .box {float: left;width: 35%;height: 40px;}
+#main.contact .container2 .country_wrap .box3, 
+#main.contact .container2 .country_wrap .box6,
+#main.contact .container2 .country_wrap .box9 {width: 30%;}
+/* 서브 페이지(contact us). 글로벌파트너 국기 sprite */
+#main.contact .container2 .country_wrap .box .flag {float: left;width: 60px;height: 100%;background: url(../images/ico_flags.png) 0 0;}
+#main.contact .container2 .country_wrap .box2 .flag {background-position-y:-50px;}
+#main.contact .container2 .country_wrap .box3 .flag {background-position-y:-100px;}
+#main.contact .container2 .country_wrap .box4 .flag {background-position-y:-150px;}
+#main.contact .container2 .country_wrap .box5 .flag {background-position-y:-200px;}
+#main.contact .container2 .country_wrap .box6 .flag {background-position-y:-250px;}
+#main.contact .container2 .country_wrap .box7 .flag {background-position-y:-300px;}
+#main.contact .container2 .country_wrap .box8 .flag {background-position-y:-361px;}
+#main.contact .container2 .country_wrap .box9 .flag {background-position-y:-400px;}
+/* 서브 페이지(contact us). 파트너쉽 가입 */
+#main.contact .container3 {position: relative;width: 100%;height: 320px;overflow: hidden;background: url(../images/bg_banner.jpg) no-repeat;background-size: cover;}
+#main.contact .container3 .container_inner {margin-top: 100px;}
+#main.contact .container3 .tit_wrap .tit {font-size: 32px;line-height: 40px;}
+#main.contact .container3 .tit_wrap .btn_wrap {display: inline-block; height: 36px;}
+#main.contact .container3 .tit_wrap .btn_wrap .txt {float:left; line-height: 36px; padding-right: 8px; cursor: pointer;}
+#main.contact .container3 .tit_wrap .btn_wrap .btn_join {float:left;width: 36px;height: 36px;border: none;background: url(../images/ico_arrow.png) no-repeat;}
